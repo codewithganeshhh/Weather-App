@@ -1,0 +1,22 @@
+.container{
+    ::placeholder {
+        color: white !important;
+    }
+
+    form {
+        margin-top: 3rem;
+
+        input{
+            background-color: transparent;
+            color: white;
+            border: none;
+            border-bottom: 2px solid white;
+            border-radius: 0;
+        }
+
+        input:focus {
+            box-shadow: none;
+            border-bottom: 2px solid red;
+        }
+    }
+}
